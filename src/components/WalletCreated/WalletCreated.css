@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.walletCreated{
+    height: 597px;
+    width: 353px;
+    background-color: #171616;
+    color: #ffffff;
+    position: relative;
+
+    .header{
+        height: 40px;
+        width: 353px;   
+        position: absolute;
+        background-color: #171616;
+        box-shadow: 0px 1px 5px  #1E1E1E;
+
+        p{
+            text-align: center;
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 16px;
+            color: #ffffffd3;
+            
+        }
+    }
+
+    .center{
+        position: absolute;
+        width: 313px;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 20px;
+        
+
+        p{
+            margin-top: 20px;
+            word-wrap: break-word;  
+        }
+    }
+    .footerButtons{
+        position: absolute;
+        top: 500px;
+        display: flex;
+        left: 25px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+
+        div{
+            height: 50px;
+            width: 300px;
+            background-color: #c4a83a;
+            border-radius: 20px;
+            font-weight: 700;
+            color: #1E1E1E;
+            font-size: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            &:active {
+                transform: scale(1);
+            }
+
+            
+        }
+    }
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.recieve {
+  height: 597px;
+  width: 353px;
+  background-color: #171616;
+  color: #ffffff;
+  position: relative;
+
+  .header {
+    height: 40px;
+    width: 353px;
+    position: absolute;
+    background-color: #171616;
+    box-shadow: 0px 1px 5px #1E1E1E;
+
+    p {
+      text-align: center;
+      margin-top: 10px;
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 0.4px;
+    }
+  }
+
+  .center {
+    position: absolute;
+    top: 60px;
+    left: 48px;
+    height: 253px;
+    width: 253px;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    color: #000;
+
+    .qrCode {
+      margin-top: 25px;
+      margin-left: 25px;
+
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+      }
+    }
+
+    .accountAddress {
+      margin-top: 45px;
+      height: 40px;
+      font-weight: 600;
+      font-size: 14px;
+      width: 100%;
+      text-align: center;
+      word-wrap: break-word;
+      white-space: normal;
+      color: #fff2f2;
+    }
+  }
+
+  .footerButtons {
+    position: absolute;
+    top: 500px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+    div {
+      height: 50px;
+      width: 300px;
+      background-color: #c4a83a;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 20px;
+      color: #1e1e1e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 10px #c4a83a88;
+        cursor: pointer;
+      }
+
+      &:active {
+        transform: scale(0.97);
+      }
+    }
+  }
+}
