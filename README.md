@@ -1,4 +1,5 @@
-# Ewallet Chrome Extension
+# Ewallet Chrome Extension 
+(currently supports sepolia testnet)
 
 A lightweight Ethereum wallet browser extension built using **React**, **Vite**, and **CRXJS**.  
 Ewallet enables users to create, import, and manage their wallets directly in the browser with a clean and simple UI.
