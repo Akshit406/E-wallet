@@ -1,8 +1,42 @@
-# React + Vite
+# Ewallet Chrome Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight Ethereum wallet browser extension built using **React**, **Vite**, and **CRXJS**.  
+Ewallet enables users to create, import, and manage their wallets directly in the browser with a clean and simple UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 Generate a new Ethereum wallet
+- 🧠 Import wallet using a 12-word passphrase
+- 💸 Send and receive ETH or tokens
+- 📜 View transaction history
+- 🧩 Built as a Chrome Extension (Manifest v3)
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [CRXJS](https://crxjs.dev/vite-plugin/)
+- [Ethers.js](https://docs.ethers.org/)
+- Chrome Extension Manifest V3
+
+## 📦 Getting Started
+
+### 1. Clone the repository
+git clone https://github.com/yourusername/ewallet-extension.git
+cd ewallet-extension 
+
+### 2. Install dependencies
+npm install
+
+### 3. Run in development mode
+npm run dev
+
+### 5. Build for production
+npm run build
+
+### 6. Load the extension in Chrome
+Go to chrome://extensions
+Enable Developer mode
+Click Load unpacked
+Select the dist/ folder
+
